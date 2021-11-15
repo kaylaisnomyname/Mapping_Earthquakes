@@ -3,5 +3,5 @@
 - js, 
 - APIs, 
 - d3 library
-- - Leaflet.js
+- Leaflet.js
 - GeoJSON
