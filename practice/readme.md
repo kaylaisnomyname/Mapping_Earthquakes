@@ -9,7 +9,8 @@
             - js : 
                 - config.js
                 - logic.js 
-            - 
+            -  
+        - .gitignore
 1. create index.html
     - adding Leaflet.css, including integrity value
     - adding Leaflet.js in <head> or map <div> element, including the integrity value
@@ -20,3 +21,5 @@
 3. create config.js to hold Mapbox API token
 4. create logic.js : codes to create map and add data to map
 5. add config.js and logic.js to index.html
+6. add .gitignore file in the main folder to untract the config.js
+
