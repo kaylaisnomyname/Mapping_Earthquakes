@@ -1,0 +1,40 @@
+<!-- practice/Simple_Map/index.html 
+s13.2.3-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet-Basic-Map</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <!-- Make sure you put this AFTER Leaflet's CSS; Leaflet Quick Start Guide instructs to place leaflet.js below leaflet.css-->
+    <!-- important: the integrity value => including integrity value with the CDNs is to avoid security risk of being hacked-->
+
+
+</head>
+<body>  
+
+
+    <!-- this div holds your map-->
+    <div id="mapid">
+
+    </div>
+    <!-- Make sure you put this AFTER Leaflet's CSS, in s13.2.3 instructs to place this below the map div, -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    <!-- API key -->
+    <script type="text/javascript" src="static/js/config.js"></script>
+    <!-- Our JavaScript -->
+    <script type="text/javascript" src="static/js/logic.js"></script>
+    
+</body>
+</html>
