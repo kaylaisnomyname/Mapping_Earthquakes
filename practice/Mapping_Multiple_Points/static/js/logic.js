@@ -1,7 +1,7 @@
 /* Mapping Multiple Points */
 
 // Add console.log to check to see if our code is working.
-console.log("Mapping_Single_Point is working");
+console.log("Mapping_Multiple_Points is working");
 
 // Create the map object with a center at Huston and zoom level(scale of 0-18).
 let map = L.map('mapid').setView([29.7604, -95.3698], 4);
