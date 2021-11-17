@@ -1,0 +1,10 @@
+/* Mapping Multiple points on map */
+
+html,
+body,
+#mapid {
+  width: 100%;  /* set the height of the <div> element to 100% of the page*/
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
