@@ -10,7 +10,6 @@ let map = L.map('mapid').setView([34.0522, -118.2437], 14);
 // add a circle on target location
 //let circle = L.circle([34.0522, -118.2437], {radius: 100}).addTo(map);
 
-
 // // add tile layer, using the Mapbox Styles APIs
 // // mapbox styles check (https://docs.mapbox.com/api/maps/styles/)
 // let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
