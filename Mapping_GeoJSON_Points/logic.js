@@ -1,4 +1,4 @@
-  /* Mapping Lines */
+  /* Mapping GeoJSON s13.5.2 mapping a GeoJSON Point */
 
 // Add console.log to check to see if our code is working.
 console.log("Mapping_GeoJSON_Points is working");
